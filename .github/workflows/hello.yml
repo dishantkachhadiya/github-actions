@@ -6,9 +6,12 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
+        - run: echo "Hello Dishant!"
         - run: pwd 
         - run: whoami 
         - run: git --version 
+        - run: uname -a 
+        
       
 
 
