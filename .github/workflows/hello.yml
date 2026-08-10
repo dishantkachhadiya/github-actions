@@ -1,1 +1,15 @@
+name: My first github action 
+on: [push]
 
+jobs:
+    test:
+      runs-on: ubuntu-latest
+
+      steps:
+        - run: pwd 
+        - run: whoami 
+        - run: git --version 
+      
+
+
+    
